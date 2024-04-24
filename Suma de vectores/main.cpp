@@ -1,5 +1,5 @@
 #include <iostream>
-
+//suma de vectores
 using namespace std;
 
 class Vector {
@@ -12,7 +12,7 @@ public:
     //constructor default
     explicit Vector();
 
-    // Constructor paramétrico
+    // Constructor paramÃ©trico
     explicit Vector(int p_x, int p_y);
 
 
@@ -22,7 +22,7 @@ public:
     // Destructor
     virtual ~Vector();
 
-    //método para sumar dos vectores
+    //mÃ©todo para sumar dos vectores
     Vector sumar(Vector& A, Vector& B);
 
 
